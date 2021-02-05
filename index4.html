@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swami Vivekananda</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Hachi+Maru+Pop&display=swap");
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .page {
+        min-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row;
+        background-color: #db9824;
+      }
+      #home {
+        background-color: #db9824;
+        background-image: url("hero-image.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      #early_life {
+        background-color: #6dc4ff;
+      }
+      #early-life-text {
+        background-image: linear-gradient(blue, green);
+        padding: justify;
+      }
+      #about_him {
+        background-color: #7fd31f;
+        background-image: url("about-him.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      #about-him-text {
+        background-image: linear-gradient(brown, orange);
+        padding: justify;
+        width: 50%;
+      }
+      #chicago {
+        background-color: #254edb;
+        background-image: url("chicago.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        text-align: justify;
+      }
+      #chicago-text {
+        background-image: linear-gradient(purple, violet);
+      }
+      #contribution {
+        background-color: #ff8665;
+        background-image: url("contribution.jpeg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      #contribution-text {
+        background-image: linear-gradient(red, orange);
+      }
+      #belur-math {
+        background-color: #db9824;
+        background-image: url("belur-math.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      #Belur-math-text {
+        border-radius: 5px;
+        background-image: linear-gradient(#de6262, #b75d19);
+        padding: justify;
+      }
+      ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .nav {
+        position: fixed;
+        width: 100%;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.8);
+        font-size: 20px;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      h1 {
+        font-family: "Abril Fatface", cursive;
+        font-size: 100px;
+      }
+      b {
+        font-family: "Dancing Script", cursive;
+        font-size: 40px;
+        color: white;
+      }
+
+      p {
+        font-family: "Hachi Maru Pop", cursive;
+        color: white;
+      }
+      .nav-link {
+        font-family: "Dancing Script", cursive;
+      }
+      .image {
+        border-radius: 15px;
+        display: flex;
+        flex: 1;
+        max-width: 50vw;
+      }
+      .page-portion {
+        flex: 1;
+        width: 50%;
+        text-align: justify;
+        padding: 20px;
+      }
+      #herotext {
+        flex: 0.6;
+        align-self: flex-end;
+        justify-self: center;
+        text-align: right;
+        background-image: linear-gradient(yellow, red);
+      }
+      #early-life {
+        background-color: #035f8f;
+        background-image: url("early-image.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        text-align: justify;
+      }
+      .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: #d8fdf4;
+      }
+      #video {
+        background-color: orange;
+      }
+      .d:hover {
+        background-color: violet;
+      }
+      .odd {
+        flex-direction: row;
+        background-position: left;
+      }
+      .even {
+        flex-direction: row-reverse;
+        background-position: right;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+    <ul>
+      <li><a class="nav-link d" href="#home">Home</a></li>
+      <li><a class="nav-link d" href="#early-life">early-life</a></li>
+      <li><a class="nav-link d" href="#about_him">about-him</a></li>
+      <li><a class="nav-link d" href="#chicago">Chicago</a></li>
+      <li><a class="nav-link d" href="#contribution">Contribution</a></li>
+      <li><a class="nav-link d" href="#belur-math">Belur-math</a></li>
+    </ul>
+    </div>
+    <div class="content">
+      <div class="page odd" id="home">
+        <div class="page-portion"></div>
+        <div class="page-portion" id="herotext">
+          <h1>Swami Vivekananda</h1>
+          <b
+            >The great human being who reformed many citizens across the whole
+            world</b
+          >
+          <p id="subheading">
+            In this website we are trying to acknowledge ourselves about this
+            great man who has reformed billions.
+          </p>
+        </div>
+      </div>
+
+      <div class="page even" id="early-life">
+        <div class="page-portion"></div>
+        <div class="page-portion" id="early-life-text">
+          <b>Early life of Swami Vivekananda</b>
+          <p>
+            Vivekananda was born Narendranath Datta (shortened to Narendra or
+            Naren) in a Bengali family at his ancestral home at 3 Gourmohan
+            Mukherjee Street in Calcutta, the capital of British India, on 12
+            January 1863 during the Makar Sankranti festival. He belonged to a
+            traditional family and was one of nine siblings. His father,
+            Vishwanath Datta, was an attorney at the Calcutta High Court.
+            Durgacharan Datta, Narendra's grandfather was a Sanskrit and Persian
+            scholar who left his family and became a monk at age twenty-five.
+            His mother, Bhubaneswari Devi, was a devout housewife. The
+            progressive, rational attitude of Narendra's father and the
+            religious temperament of his mother helped shape his thinking and
+            personality. Narendranath was interested in spirituality from a
+            young age and used to meditate before the images of deities such as
+            Shiva, Rama, Sita, and Mahavir Hanuman. He was fascinated by
+            wandering ascetics and monks. Narendra was naughty and restless as a
+            child, and his parents often had difficulty controlling him. His
+            mother said, "I prayed to Shiva for a son and he has sent me one of
+            his demons".
+          </p>
+        </div>
+      </div>
+      <div class="page odd" id="about_him">
+        <div class="page-portion"></div>
+        <div class="page-portion" id="about-him-text">
+          <b>About Swamiji</b>
+          <p>
+            Narendranath Dutta who later came to be known as Swami Vivekananda
+            was born to aristocratic Bengali Kayastha family of Calcutta. His
+            father , grandfather as well as his mother possessed rich spiritual
+            , religious and educational values which were evidently passed on to
+            him. He was a curious child and had an inclination towards spritual
+            at very young age. He travelled far and wide spreading the message
+            of Hinduism to the world outside India. As a result of his teachings
+            and works, he is regarded as an inspiration and idol to the youth of
+            the country till date.
+          </p>
+        </div>
+      </div>
+
+      <div class="page even" id="chicago">
+        <div class="page-portion"></div>
+        <div class="page-portion" id="chicago-text">
+          <b>Vivekananda's speech at Chicago</b>
+          <p>
+            <i
+              >"Sisters and Brothers of America,<br />
+              It fills my heart with joy unspeakable to rise in response to the
+              warm and cordial welcome which you have given us. I thank you in
+              the name of the most ancient order of monks in the world; I thank
+              you in the name of the mother of religions, and I thank you in the
+              name of millions and millions of Hindu people of all classes and
+              sects.My thanks, also, to some of the speakers on this platform
+              who, referring to the delegates from the Orient, have told you
+              that these men from far-off nations may well claim the honor of
+              bearing to different lands the idea of toleration. I am proud to
+              belong to a religion which has taught the world both tolerance and
+              universal acceptance. We believe not only in universal toleration,
+              but we accept all religions as true. I am proud to belong to a
+              nation which has sheltered the persecuted and the refugees of all
+              religions and all nations of the earth. I am proud to tell you
+              that we have gathered in our bosom the purest remnant of the
+              Israelites, who came to Southern India and took refuge with us in
+              the very year in which their holy temple was shattered to pieces
+              by Roman tyranny. I am proud to belong to the religion which has
+              sheltered and is still fostering the remnant of the grand
+              Zoroastrian nation. I will quote to you, brethren, a few lines
+              from a hymn which I remember to have repeated from my earliest
+              boyhood, which is every day repeated by millions of human beings:
+              "As the different streams having their sources in different paths
+              which men take through different tendencies, various though they
+              appear, crooked or straight, all lead to Thee. "The present
+              convention, which is one of the most august assemblies ever held,
+              is in itself a vindication, a declaration to the world of the
+              wonderful doctrine preached in the Gita: "Whosoever comes to Me,
+              through whatsoever form, I reach him; all men are struggling
+              through paths which in the end lead to me." Sectarianism, bigotry,
+              and its horrible descendant, fanaticism, have long possessed this
+              beautiful earth. They have filled the earth with violence,
+              drenched it often and often with human blood, destroyed
+              civilization and sent whole nations to despair. Had it not been
+              for these horrible demons, human society would be far more
+              advanced than it is now. But their time is come; and I fervently
+              hope that the bell that tolled this morning in honor of this
+              convention may be the death-knell of all fanaticism, of all
+              persecutions with the sword or with the pen, and of all
+              uncharitable feelings between persons wending their way to the
+              same goal."</i
+            >
+          </p>
+          <a href="https://www.youtube.com/watch?v=WIOtnn6meWA" id="video">
+            Please hear the speech of Vivekananda in his own words</a
+          >
+        </div>
+      </div>
+
+      <div class="page odd" id="contribution">
+        <div class="page-portion"></div>
+        <div class="page-portion" id="contribution-text">
+          <b>Contribution</b>
+
+          <ol>
+            <li>
+              <h4>As a social reformer</h4>
+              <p>
+                Swami Vivekananda was a spiritual mentor to all nation and
+                civilization. He was a multi faceted personality incarnated with
+                a mind broad as the sky, deep as the ocean and pure as a
+                crystal. He gave a social and scientific dimension to religion
+                which he considered the summumbonum of all the religion.
+              </p>
+            </li>
+            <li>
+              <h4>Towards nationalism</h4>
+              <p>
+                Vivekananda played a major role in the growing Indian
+                nationalism in the late 19th and the 20th century, encouraging
+                many Indians with his success and appeal in the west. His
+                example helped to build pride in India's cultural and religious
+                heritage, and to stand up against the British colonial system.
+              </p>
+            </li>
+            <li>
+              <h4>Towards yoga and meditation</h4>
+              <p>
+                Swami Vivekananda compared human mind with a monkey who is
+                always restless and incessantly active by his own nature. He
+                noticed, the human mind naturally wants to get outside, to peer
+                out of the body, as it were, through the channels of the organs.
+                So, he stressed on practice of concentration, as he felt there
+                is no limit to the power of the human mind, the more
+                concentrated it is, the more powerful it becomes. Swami
+                Vivekananda suggested not to do anything which disturbs the mind
+                or makes it restless.
+              </p>
+            </li>
+            <li>
+              <h4>Towards education</h4>
+              <p>
+                Swami Vivekananda's contribution to educational thought is of
+                supreme importance if education is observed as the most powerful
+                instrument of social change. Vivekananda propagated that the
+                essence of Hinduism was best expressed in Adi Shankara's Advaita
+                Vedanta philosophy.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="page even" id="belur-math">
+        <div class="page-portion"></div>
+        <div class="page-portion" id="Belur-math-text">
+          <b>Establishment of Belur Math</b>
+          <p>
+            In January 1897, Swami Vivekananda arrived in Baranagar, Calcutta
+            with his small group of Western disciples. Two monasteries were
+            founded by him, one at Belur, which became the headquarters of
+            Ramakrishna Mission and the other at Mayavati on the Himalayas, in
+            Champawat District, Uttrakhand, called the Advaita Ashrama.These
+            monasteries were meant to receive and train young men who would
+            eventually become sannyasis (religious ascetic) of the Ramakrishna
+            Mission, and to give them a training for their work. The same year
+            the philanthropic activity was started and relief of the famine was
+            carried out.<br />
+
+            Swami Vivekananda's days as a parivrajaka (wandering monk) before
+            his visit to Parliament of Religions, took him through many parts of
+            India and he visited several architectural monuments like the Taj
+            Mahal, Fatehpur Sikri palaces, Diwan–I–Khas, palaces of Rajasthan,
+            ancient temples of Maharashtra, Gujarat, Karnataka, Tamil Nadu and
+            other places. During his tour in America and Europe, he came across
+            buildings of architectural importance of Modern, Medieval, Gothic
+            and Renaissance styles. It is reported that Vivekananda incorporated
+            these ideas in the design of the Belur Math temple.<br />
+
+            Swami Vijnanananda, a brother-monk of Swami Vivekananda and one of
+            the monastic disciples of Ramakrishna, who was, in his pre-monastic
+            life, a civil engineer, designed the temple according to the ideas
+            of Vivekananda and Swami Shivananda, the then President of Belur
+            Math laid the foundation stone on 13 March 1929. The massive
+            construction was handled by Martin Burn & Co.. The mission proclaims
+            the Belur Math as, "A Symphony in Architecture".<br />
+          </p>
+        </div>
+      </div>
+
+      <div class="footer">
+        Information Courtesy:
+        <u
+          ><a href="https://en.wikipedia.org/wiki/Swami_Vivekananda"
+            >Wikipedia
+          </a></u
+        >
+      </div>
+    </div>
+  </body>
+</html>
