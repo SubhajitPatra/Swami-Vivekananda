@@ -9,6 +9,13 @@
       * {
         margin: 0px;
         padding: 0px;
+        scroll-behavior: smooth;
+        -moz-overflow-style: none;
+        scrollbar-width: none;
+        
+      }
+      body::-webkit-scrollbar{
+          display: none;
       }
       .page {
         min-height: 100vh;
@@ -68,6 +75,8 @@
       }
       #contribution-text {
         background-image: linear-gradient(red, orange);
+        width: 70%; 
+        flex-grow:2 ;
         
       }
       #belur-math {
